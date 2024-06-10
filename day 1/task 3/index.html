@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <audio controls>
-        <source  type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio> 
+        <source type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="buttons">
+        <button>play</button>
 
-      <br/>
+        <button>pause</button>
 
-      <button>play</button>
-      <button>pause</button>
-      <button>stop</button>
+        <button>stop</button>
+        <input type="range" name="volume" id="volume" value="0">
 
-      <br/>
+    </div>
 
-      <input type="range" name="volume" id="volume" value="0">
+        <img id="image"></img>
+        <input type="range" name="time" id="time" value="0" min="0" max="183">
 
-      <script src="script.js"></script>
+    <!-- <input type="range" name="time" id="time"> -->
+    <div id="music">
+
+        <div class="song">Mario</div>
+        <div class="song">classical</div>
+        <div class="song">Mario2</div>
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>

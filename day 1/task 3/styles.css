@@ -1,0 +1,60 @@
+/* body {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px;
+    
+}
+
+#music {
+    display: flex; 
+    gap: 10px;  
+
+}
+
+button{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+.song {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+ */
+
+
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: peachpuff;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+  }
+  #music {
+    display: flex; 
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: beige;
+  }
+  
+  .song { /* Style all elements with class "song" */
+    padding: 10px;
+    border: 1px solid saddlebrown;
+    border-radius: 5px;
+    background-color: gold;
+  }

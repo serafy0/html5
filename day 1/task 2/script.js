@@ -1,7 +1,7 @@
 let inputs = document.getElementsByTagName("input")
 let text = document.getElementById("text")
 for(let i = 0;i<=2;i++){
-    inputs[i].addEventListener("change",function(){
+    inputs[i].addEventListener("input",function(){
         changeColor()
 
     })
