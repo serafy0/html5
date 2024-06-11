@@ -51,8 +51,6 @@ for(let i =0;i<songs.length;i++){
         image.src = `./images/${i}.png`
         audio.play()
         timeRange.value = 0
-        // setTimeout(function(){
-        // },2000)
     })
 }
 
