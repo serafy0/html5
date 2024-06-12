@@ -1,0 +1,165 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: wheat;
+}
+.card-container{
+    display: flex;
+    
+    flex-direction: row;
+    width: 300px;
+    /* flex: 1 0 33.33%; */
+     /*.3*/
+
+    /* flex-grow: 1; */
+    flex-basis: 33.33%
+
+    /* text-overflow: ellipsis; change back to make it always three
+    overflow: hidden; */
+
+
+
+}
+p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+.container{
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 40px;
+    margin: 40px;
+    align-items: center;
+
+}
+
+/* .card-container {
+
+    margin: 30px;
+
+} */
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 1px orange;
+    margin-right: 20px;
+    color: red;
+    background-color: white;
+    box-shadow: inset 0px 0px 3px 5px white;
+    border: 2px solid black;
+    padding: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+/* i{
+    /* display: flex;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 25px;
+    /* margin-top: 100px; */
+    /* justify-content: center;
+    align-items: center; */
+    
+
+
+
+    /* box-shadow: 1px orange;
+
+    color: red;
+    background-color: white;
+    box-shadow: inset 0px 0px 3px 5px white;
+    border: 2px solid black; */
+
+
+/* } */ */ */
+
+i{
+    color: red;
+    background-color: white;
+    box-shadow: inset 0px 0px 3px 5px white;
+    border: 2px solid black; */
+
+}
+
+
+
+.icon:hover{
+    animation-name: change;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: alternate;
+
+    background-color: red;
+    color: white;
+
+
+}
+
+.icon:not(hover){
+    animation-name: newChange;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: forwards;
+
+
+    background-color: white;
+    color: red;
+
+
+
+}
+
+
+@keyframes change {
+    from { 
+        background-color: white;
+        color: red;
+    
+    } 
+    to { 
+
+        background-color: red;
+        color: white;
+
+     } 
+  }
+  
+
+
+@keyframes newChange {
+    from {
+        background-color: red;
+        color: white;
+     } 
+    to { 
+        background-color: white;
+        color: red;
+
+     } 
+  }
+  

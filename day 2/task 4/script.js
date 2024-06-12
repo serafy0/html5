@@ -28,7 +28,7 @@ images[0].addEventListener("drop", (event) => {
     score.innerText = "draw, paper+ paper"
   }else if (itemDragged === "s"){
     console.log("you win, s beats paper")
-    score.innerText = "you win, s beats paper"
+    score.innerText = "you win, scissors beats paper"
 
   }else if (itemDragged === "rock"){
     console.log("you lose, rock loses to paper")
@@ -52,7 +52,7 @@ images[1].addEventListener("drop", (event) => {
 
   }else if (itemDragged=== "s"){
     console.log("you lose, s loses to rock")
-    score.innerText ="you lose, s loses to rock" 
+    score.innerText ="you lose, scissors loses to rock" 
   }else if (itemDragged === "rock"){
     console.log("draw. rock+rock")
     score.innerText ="draw. rock+rock"
@@ -66,14 +66,14 @@ images[2].addEventListener("drop", (event) => {
 //   event.preventDefault();
   // move dragged element to the selected drop target
   if (itemDragged === "paper") {
-    console.log("you lose, paper loses to s")
-    score.innerText ="you lose, paper loses to s"
+    console.log("you lose, paper loses to scissors")
+    score.innerText ="you lose, paper loses to scissors"
   }else if (itemDragged=== "s"){
-    console.log("draw, s+s")
+    console.log("draw, scissors+scissors")
     score.innerText ="draw, s+s"
   }else if (itemDragged === "rock"){
-    console.log("you win, rock beats s")
-    score.innerText = "you win, rock beats s"
+    console.log("you win, rock beats scissors")
+    score.innerText = "you win, rock beats scissors"
   }
 });
 

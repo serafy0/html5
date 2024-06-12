@@ -1,0 +1,27 @@
+.card{
+    border: 3px solid red;
+    width: 200px;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.A {
+    font-size: 30px;
+    padding: 10px;
+    align-self: flex-start;
+
+}
+.A2{
+    font-size: 30px;
+    padding: 10px;
+
+    align-self: flex-end;
+}
+
+.h{
+    font-size: 65px;
+    align-self: center;
+
+}

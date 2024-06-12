@@ -1,0 +1,31 @@
+img:hover{
+    animation-name: change;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    opacity: .3;
+
+}
+
+img:not(hover){
+    animation-name: newChange;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: forwards;
+    opacity: 1;
+
+}
+
+
+@keyframes change {
+    from { opacity: 1; } 
+    to { opacity: 0.3; } 
+  }
+  
+
+
+@keyframes newChange {
+    from { opacity: 0.3; } 
+    to { opacity: 1; } 
+  }
+  

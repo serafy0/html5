@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+img#player1 {
+    width: 200px;
+    height: 200px;
+}
+
+img#player2 {
+    width: 200px;
+    height: 200px;
+}
+
+img#grass {
+    width: 800px;
+    height: 100px;
+    padding-top: 120px;
+    z-index: -1;
+
+}
+
+img#ball {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+
+
+
+    animation-name: move;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+}
+
+
+@keyframes move {
+    to {
+        transform: translate(-900px)
+    }
+}
